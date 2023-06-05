@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td, th {
+   padding: 5px 10px; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+td button a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+tr {
+    text-align: center;
+}
+
+img {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+img.imgtamanotabla:hover {
+    transform: scale(1.3);
+}
+
+button.botoncomprar:hover{
+    background: rgb(76, 209, 76);
+    color: white;
+    cursor: pointer 
+}
+
+.imgtamanotabla{
+    width: 150px;
+    height: 150px;
+  }
+
+.bgblanco{
+    background-color: rgba(255, 255, 255, 0.938);
+}
+
+@media (max-width: 40em) {
+    table {
+        width: 100%;
+        font-size: .9em;
+        text-align: center;
+    }
+    
+    table tr{
+        display: flex;
+        flex-direction: column;
+        border: white ;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+    table thead {
+        display: none;
+    }
+
+    .ocultar{
+        display: none;
+    }
+
+}
